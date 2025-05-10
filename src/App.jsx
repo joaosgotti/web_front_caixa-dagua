@@ -8,7 +8,7 @@ import GraficoHistorico from './components/GraficoHistorico';
 import './App.css'; // Se você tiver um App.css global
 
 // A URL base da API pode ser definida aqui ou importada se for usada em múltiplos lugares
-export const API_BASE_URL = "http://localhost:8000"; // Ou sua URL de dev
+export const API_BASE_URL = "https://projeto-caixa-dagua-api.onrender.com"; 
 
 function App() {
   return (
