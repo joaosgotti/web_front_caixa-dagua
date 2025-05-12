@@ -43,7 +43,7 @@ function App() {
           
           {/* Bloco do Título e Subtítulo */}
           <div>
-            <h1 className="text-4x1 sm:text-5x1 font-extrabold tracking-tight bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
+            <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight bg-gradient-to-r from-sky-400 to-indigo-400 bg-clip-text text-transparent drop-shadow-md">
               Monitoramento da Caixa d'Água
             </h1>
             <p dir="rtl" className="text-lg sm:text-xl mt-2 text-slate-400">
