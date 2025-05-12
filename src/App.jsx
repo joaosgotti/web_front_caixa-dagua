@@ -38,8 +38,7 @@ function App() {
   return (
     <div className="flex flex-col items-center justify-start min-h-screen p-4 sm:p-6 text-slate-200 font-sans bg-slate-900">
       <div className="w-full max-w-7xl">
-        {/* Cabeçalho Modificado */}
-        <header className="mb-8 sm:mb-12 text-center"> {/* Adicionado text-center ao header para centralizar conteúdo */}
+        <header className="mb-8 sm:mb-12 text-center"> 
           
           {/* Bloco do Título e Subtítulo */}
           <div>
@@ -51,14 +50,13 @@ function App() {
             </p>
           </div>
 
-          {/* Bloco "Desenvolvido por" - Centralizado abaixo do título */}
           <div className="flex items-center justify-center gap-3 mt-6 "> 
             <img 
-              src="/jvsv.jpg" // Certifique-se que esta imagem está na pasta 'public'
+              src="/jvsv.jpg"
               alt="Foto de João Vitor" 
               className="w-16 h-16 rounded-full object-cover border-2"
             />
-            <div className="text-left"> {/* Texto alinhado à esquerda dentro deste sub-bloco */}
+            <div className="text-left">
               <p className="text-xs text-slate-400">Desenvolvido por:</p>
               <p className="text-sm font-semibold text-slate-100">João Vítor Sgotti Veiga</p>
             </div>
@@ -81,7 +79,7 @@ function App() {
         {/* Rodapé */}
         <footer className="mt-12 sm:mt-16 text-center">
           <p className="text-xs text-slate-500">
-            © {new Date().getFullYear()} JVSV. Todos os direitos reservados.
+            © {new Date().getFullYear()} João Vítor Sgotti Veiga. Todos os direitos reservados.
           </p>
         </footer>
       </div>
